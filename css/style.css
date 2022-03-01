@@ -1,0 +1,30 @@
+.box{
+    width: 100px;
+    height: 100px;
+    margin: 300px auto;
+    background-color: aquamarine;
+    /* transition: all 2s; */
+    transition-property: transform , background-color;
+    transition-duration: 3s , 6s;
+}
+.box:hover{
+    /* transform: translate(50px,50px); */
+    transform: scale(2,2);
+    background-color: blueviolet;
+}
+.cat{
+    width: 350px;
+    display: block;
+    margin: auto;
+    transition: all 3s;
+   
+}
+.cat:hover{
+    /* transform: scale(-2,2); */
+    /* transform: rotate(-180deg); */
+    /* transform: rotate(-1turn); */
+    transform: skewY(-45deg);
+
+
+
+}
